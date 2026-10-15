@@ -56,8 +56,8 @@ function Gallery() {
         );
 
   return (
-    <main className="min-h-screen bg-cream text-espresso">
-      <section className="bg-espresso px-6 py-20 text-center text-cream md:py-28">
+    <main className="min-h-screen bg-cream text-espresso ">
+      <section className="bg-black px-6 py-20 text-center text-cream md:py-28">
         <p className="mb-4 text-sm font-bold uppercase tracking-[0.3em] text-orange">
           A Taste of Our World
         </p>
@@ -89,10 +89,10 @@ function Gallery() {
               key={category}
               type="button"
               onClick={() => setActiveCategory(category)}
-              className={`rounded-full px-5 py-3 text-sm font-bold transition ${
+              className={`rounded-2xl cursor-pointer px-5 py-3 text-sm font-bold transition ${
                 activeCategory === category
                   ? "bg-espresso text-cream"
-                  : "border border-espresso/20 bg-white text-espresso hover:bg-orange"
+                  : "border border-espresso/40 bg-white text-espresso hover:bg-orange hover:text-white"
               }`}
             >
               {category}
