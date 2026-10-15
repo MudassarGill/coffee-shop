@@ -20,13 +20,16 @@ function AboutSection() {
         </h2>
 
         <p className="mb-8 text-lg">
-          Yahan apni kahani likho: aap kaun ho aur aap ne yeh coffee shop
-          kyun shuru ki. Do teen jumlay kaafi hain.
+            Ember Coffee started with a simple idea: everyone deserves a really good
+            cup of coffee and a warm place to enjoy it. We roast our beans in small
+            batches, bake fresh every morning, and make every drink by hand. Whether
+            you stop by for a quick espresso or stay all afternoon with a book, we
+            hope you feel right at home.
         </p>
 
         <a
           href="/about"
-          className="inline-block rounded-full bg-roast px-8 py-4 font-bold text-white hover:bg-espresso"
+          className="inline-block rounded-3xl bg-roast px-8 py-4 font-bold text-white hover:bg-espresso"
         >
           Visit Us Today
         </a>
