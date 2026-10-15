@@ -1,21 +1,15 @@
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Features from './components/Features'
-import AboutSection from './components/About'
-import Footer from './components/Footer'
-
+import Navbar from "./components/Navbar";
+import About from "./pages/About";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <>
       <Navbar />
-      <Hero/>
-      <Features/>
-      <AboutSection/>
-      <Footer/>
+      <About />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

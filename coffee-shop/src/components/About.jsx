@@ -29,7 +29,7 @@ function AboutSection() {
 
         <a
           href="/about"
-          className="inline-block rounded-3xl bg-roast px-8 py-4 font-bold text-white hover:bg-espresso"
+          className="inline-block rounded-2xl bg-roast px-8 py-4 font-bold text-white hover:bg-espresso"
         >
           Visit Us Today
         </a>
