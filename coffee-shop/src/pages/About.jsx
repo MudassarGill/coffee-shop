@@ -47,7 +47,7 @@ function About() {
           <img
             src={storyImg}
             alt="Coffee being roasted"
-            className="h-80 w-full rounded-3xl object-cover shadow-xl shadow-espresso/30 md:h-[420px]"
+            className="h-80 w-full rounded-3xl object-cover shadow-3xl shadow-espresso/30 md:h-[420px] shadow"
           />
         </div>
       </section>
@@ -60,7 +60,7 @@ function About() {
           </h2>
           <p className="mb-12 text-center text-lg">Three promises we keep.</p>
 
-          <div className="grid gap-7 md:grid-cols-3">
+          <div className="grid gap-7 md:grid-cols-3 shadow">
             <ValueCard
               icon={<Coffee size={32} />}
               title="Quality First"
