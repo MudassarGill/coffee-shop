@@ -8,7 +8,7 @@ function Features() {
     <section className="bg-latte px-6 py-20">
       <div className="mx-auto max-w-6xl">
 
-        <h2 className="mb-2 text-center font-heading text-4xl font-bold">
+        <h2 className="mb-2 text-center font-heading text-4xl font-bold ">
           Why people love Ember
         </h2>
         <p className="mb-12 text-center text-lg">

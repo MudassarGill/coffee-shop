@@ -2,7 +2,7 @@ import heroImg from "../assets/hero.jpg";
 
 function Hero() {
   return (
-    <header className="mx-auto flex max-w-6xl flex-col items-center gap-10 px-6 py-12 md:flex-row md:gap-12 md:py-20">
+    <header className="mx-auto flex max-w-6xl flex-col items-center gap-10 px-6 py-12 md:flex-row md:gap-12 md:py-20 ">
       {/* left: text */}
       <div className="flex-1 text-center md:text-left">
         <p className="mb-3 text-sm font-bold tracking-widest text-roast">
@@ -35,11 +35,11 @@ function Hero() {
       </div>
 
       {/* right: image */}
-      <div className="w-full flex-1">
+      <div className="w-full flex-1  shadow-lg shadow-espresso/40 rounded-3xl md:max-w-lg">
         <img
           src={heroImg}
           alt="Latte served on a wooden table"
-          className="h-80 w-full rounded-3xl object-cover md:h-[480px]"
+          className="h-80 w-full rounded-3xl object-cover md:h-[480px] "
         />
       </div>
 
