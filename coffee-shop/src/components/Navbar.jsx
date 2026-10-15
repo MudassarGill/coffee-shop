@@ -6,8 +6,8 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-espresso text-cream">
-      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between px-4 py-2 position-fixed top-0 left-0 right-0 z-50">
+    <nav className=" sticky top-0 z-50 bg-espresso text-cream ">
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between px-4 py-2 ">
 
         {/* logo */}
         <a href="/">
