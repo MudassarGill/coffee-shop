@@ -1,8 +1,10 @@
 import { Link, useParams } from "react-router";
 import { menuItems } from "../data/menuData";
+import { useCart } from "../context/CartContext";
 
 function MenuDetail() {
   const { id } = useParams();
+  const { addItem } = useCart();
   const item = menuItems.find((menuItem) => menuItem.id === Number(id));
 
   if (!item) {
@@ -45,8 +47,11 @@ function MenuDetail() {
         <p className="mb-8 text-lg">{item.description}</p>
 
         <div className="flex flex-wrap justify-center gap-4 md:justify-start">
-          <button className="cursor-pointer rounded-2xl bg-orange px-8 py-4 font-bold text-espresso hover:bg-espresso hover:text-cream">
-            Order Now
+          <button
+            onClick={() => addItem(item)}
+            className="cursor-pointer rounded-full bg-orange px-8 py-4 font-bold text-espresso hover:bg-espresso hover:text-cream"
+          >
+            Add to Cart
           </button>
           <Link
             to="/menu"
