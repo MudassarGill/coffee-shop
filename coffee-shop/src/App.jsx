@@ -7,6 +7,8 @@ import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import Gallery from "./pages/Gallery";
 import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import OrderSuccess from "./pages/OrderSuccess";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/order-success" element={<OrderSuccess />} />
         </Route>
       </Routes>
     </BrowserRouter>
